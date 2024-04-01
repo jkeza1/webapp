@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.add-task-button {
+  background-color: #007bff;
+  color: #fff; 
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.add-task-button:hover {
+  background-color: #0056b3; 
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+.task-item input[type="checkbox"] {
+  margin-right: 8px;
+}
+.task-item {
+  margin-bottom: 10px; 
+}
+.completed {
+  text-decoration: line-through;
+  color: #000; ;
+}
