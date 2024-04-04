@@ -8,12 +8,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class ="main">
   <h1 class="header">Task Manager</h1>
   <input type="text" id="taskNameInput" placeholder="Add new task">
-  <input type="text" id="taskDescriptionInput" placeholder="add text description">
+  <input type="text" id="taskDescriptionInput" placeholder="Add text description">
+  <input type="date" id="taskDateInput"> <!-- New input field for date -->
   <button onclick="addTask()" class="add-task-button">Add Task</button>
   <ul id="taskList" class="task-list"></ul>
-
+  <button onclick="deleteAllTasks()" class="add-task-button delete-button">Delete All Tasks</button>
+  <button onclick="checkIncompleteTasks()" class="add-task-button incomplete-button">Check Incomplete Tasks</button>
+  </div>
   <script src="script.js"></script>
+
 </body>
 </html>
